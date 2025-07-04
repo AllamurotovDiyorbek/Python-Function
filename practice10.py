@@ -5,3 +5,4 @@ def is_strong_password(password:str):
         return "Bosh maydon"
     else:
         return "kuchsiz"
+print(is_strong_password(password=input("")))
